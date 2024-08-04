@@ -1,0 +1,219 @@
+<tokens>
+<keyword> class </keyword>
+<identifier> Math </identifier>
+<symbol> { </symbol>
+<keyword> function </keyword>
+<keyword> int </keyword>
+<identifier> add </identifier>
+<symbol> ( </symbol>
+<keyword> int </keyword>
+<identifier> x </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<identifier> y </identifier>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> sum </identifier>
+<symbol> ; </symbol>
+<letStatement>
+<identifier> sum </identifier>
+<symbol> = </symbol>
+<identifier> x </identifier>
+<symbol> + </symbol>
+<identifier> y </identifier>
+</letStatement>
+<symbol> ; </symbol>
+<keyword> return </keyword>
+<identifier> sum </identifier>
+<symbol> ; </symbol>
+<symbol> } </symbol>
+<keyword> function </keyword>
+<keyword> int </keyword>
+<identifier> multiply </identifier>
+<symbol> ( </symbol>
+<keyword> int </keyword>
+<identifier> x </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<identifier> y </identifier>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> product </identifier>
+<symbol> ; </symbol>
+<letStatement>
+<identifier> product </identifier>
+<symbol> = </symbol>
+<identifier> x </identifier>
+<symbol> * </symbol>
+<identifier> y </identifier>
+</letStatement>
+<symbol> ; </symbol>
+<keyword> return </keyword>
+<identifier> product </identifier>
+<symbol> ; </symbol>
+<symbol> } </symbol>
+<symbol> } </symbol>
+<keyword> class </keyword>
+<identifier> Main </identifier>
+<symbol> { </symbol>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<identifier> main </identifier>
+<symbol> ( </symbol>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<keyword> var </keyword>
+<identifier> Math </identifier>
+<identifier> math </identifier>
+<symbol> ; </symbol>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> a </identifier>
+<symbol> ; </symbol>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> b </identifier>
+<symbol> ; </symbol>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> result </identifier>
+<symbol> ; </symbol>
+<letStatement>
+<identifier> a </identifier>
+<symbol> = </symbol>
+<integerConstant> 5 </integerConstant>
+</letStatement>
+<symbol> ; </symbol>
+<letStatement>
+<identifier> b </identifier>
+<symbol> = </symbol>
+<integerConstant> 3 </integerConstant>
+</letStatement>
+<symbol> ; </symbol>
+<letStatement>
+<identifier> result </identifier>
+<symbol> = </symbol>
+<identifier> math </identifier>
+<symbol> . </symbol>
+<identifier> add </identifier>
+<symbol> ( </symbol>
+<identifier> a </identifier>
+<symbol> , </symbol>
+<identifier> b </identifier>
+<symbol> ) </symbol>
+</letStatement>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> printString </identifier>
+<symbol> ( </symbol>
+<stringConstant> &quot;The sum is: &quot; </stringConstant>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> printInt </identifier>
+<symbol> ( </symbol>
+<identifier> result </identifier>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> println </identifier>
+<symbol> ( </symbol>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<letStatement>
+<identifier> result </identifier>
+<symbol> = </symbol>
+<identifier> math </identifier>
+<symbol> . </symbol>
+<identifier> multiply </identifier>
+<symbol> ( </symbol>
+<identifier> a </identifier>
+<symbol> , </symbol>
+<identifier> b </identifier>
+<symbol> ) </symbol>
+</letStatement>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> printString </identifier>
+<symbol> ( </symbol>
+<stringConstant> &quot;The product is: &quot; </stringConstant>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> printInt </identifier>
+<symbol> ( </symbol>
+<identifier> result </identifier>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> println </identifier>
+<symbol> ( </symbol>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<whileStatement>
+<symbol> ( </symbol>
+<identifier> a </identifier>
+<symbol> &gt; </symbol>
+<integerConstant> 0 </integerConstant>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<letStatement>
+<identifier> a </identifier>
+<symbol> = </symbol>
+<identifier> math </identifier>
+<symbol> . </symbol>
+<identifier> add </identifier>
+<symbol> ( </symbol>
+<identifier> a </identifier>
+<symbol> , </symbol>
+<symbol> - </symbol>
+<integerConstant> 1 </integerConstant>
+<symbol> ) </symbol>
+</letStatement>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> printString </identifier>
+<symbol> ( </symbol>
+<stringConstant> &quot;a is now: &quot; </stringConstant>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> printInt </identifier>
+<symbol> ( </symbol>
+<identifier> a </identifier>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+<keyword> do </keyword>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<identifier> println </identifier>
+<symbol> ( </symbol>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+</whileStatement>
+<symbol> } </symbol>
+<keyword> return </keyword>
+<symbol> ; </symbol>
+<symbol> } </symbol>
+<symbol> } </symbol>
+</tokens>

@@ -1,0 +1,45 @@
+
+class Math {
+    function int add(int x, int y) {
+        var int sum;
+        let sum = x + y;
+        return sum;
+    }
+    
+    function int multiply(int x, int y) {
+        var int product;
+        let product = x * y;
+        return product;
+    }
+}
+
+class Main {
+    function void main() {
+        var Math math;
+        var int a;
+        var int b;
+        var int result;
+        
+        let a = 5;
+        let b = 3;
+        
+        let result = math.add(a, b);
+        do Output.printString("The sum is: ");
+        do Output.printInt(result);
+        do Output.println();
+        
+        let result = math.multiply(a, b);
+        do Output.printString("The product is: ");
+        do Output.printInt(result);
+        do Output.println();
+        
+        while (a > 0) {
+            let a = math.add(a, -1);
+            do Output.printString("a is now: ");
+            do Output.printInt(a);
+            do Output.println();
+        }
+        
+        return;
+    }
+}

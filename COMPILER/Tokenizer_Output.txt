@@ -1,0 +1,324 @@
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: class
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Main
+Token: {
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: function
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: void
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: main
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: {
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: var
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Array
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: a
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: var
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: int
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: length
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: var
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: int
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: ,
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: sum
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: let
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: length
+Token: =
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Keyboard
+Token: .
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: readInt
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: STRING_CONST
+Token Name: 
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: let
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: a
+Token: =
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Array
+Token: .
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: new
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: length
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: let
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: =
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: INT_CONST
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: while
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: <
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: length
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: {
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: let
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: a
+Token: [
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: ]
+Token Type: SYMBOL
+Token Name: 
+Token: =
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Keyboard
+Token: .
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: readInt
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: STRING_CONST
+Token Name: 
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: let
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: sum
+Token: =
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: sum
+Token: +
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: a
+Token: [
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: ]
+Token Type: SYMBOL
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: let
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: =
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: i
+Token: +
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: INT_CONST
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: }
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: do
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Output
+Token: .
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: printString
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: STRING_CONST
+Token Name: 
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: do
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: Output
+Token: .
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: printInt
+Token: (
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: sum
+Token: /
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: IDENTIFIER
+Token Name: length
+Token: )
+Token Type: SYMBOL
+Token Name: 
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: NOT A SYMBOL!
+Token Type: KEYWORD
+Token Name: return
+Token: ;
+Token Type: SYMBOL
+Token Name: 
+Token: }
+Token Type: SYMBOL
+Token Name: 
+Token: }
+Token Type: SYMBOL
+Token Name: 
